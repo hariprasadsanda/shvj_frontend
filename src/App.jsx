@@ -3,7 +3,7 @@ import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
-import AddTrip from "./pages/Addtrip";
+import AddTrip from "./pages/AddTrip";
 import Alltrips from "./pages/AllTrips";
 import AddVehicleForm from "./pages/AddVehicleForm";
 import OwnerFinancialSummary from "./pages/OwnerFinancialSummary";
