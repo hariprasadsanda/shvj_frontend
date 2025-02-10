@@ -1,0 +1,78 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* General Styling */
+.features-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Logo Section */
+.logo-section {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+/* Features List */
+.features-list {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.features-list h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.features-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-list li::before {
+  content: "✔";
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-list {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .features-list h2 {
+    font-size: 20px;
+  }
+
+  .features-list li {
+    font-size: 14px;
+  }
+}
